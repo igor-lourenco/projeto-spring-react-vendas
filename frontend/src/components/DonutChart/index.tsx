@@ -9,6 +9,7 @@ type ChartData = {
     series: number[];
 }
 
+//grafico de rosca
 const DonutChart = () => {
 
     const [chartData, setChartData] = useState<ChartData>({ labels: [], series: [] }); //mantem estado do componente
@@ -26,13 +27,6 @@ const DonutChart = () => {
             });
     }, []);
 
-
-    //const mockData = {
-    //series: [477138, 499928, 444867, 220426, 473088],
-    //  labels: ['Anakin', 'Barry Allen', 'Kal-El', 'Logan', 'Padmé']
-    //}
-
-
     const options = {
         legend: {
             show: true
@@ -41,7 +35,7 @@ const DonutChart = () => {
 
 
     return (
-        <Chart
+        <Chart //grafico
             options={{ ...options, labels: chartData.labels }}
             series={chartData.series}
             type="donut"
