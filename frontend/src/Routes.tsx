@@ -2,7 +2,7 @@ import Home from 'pages/Home';
 import Dashboard from 'pages/Home/Dashboard';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-const Routes = () => {
+const Routes = () => { // classe das rotas
     return (
        <BrowserRouter>
             <Switch>
