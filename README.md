@@ -5,7 +5,6 @@
 
 https://igor-lourenco-projeto-spring-react.netlify.app/
 
-Esse projeto de vendas é uma aplicação full stack web construída durante a 3ª edição da **Semana DevSuperior** (#sds3), evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
 
 A aplicação consiste em uma pesquisa de vendas e taxa de sucesso de cada vendedor, onde os dados coletados são listados na web, que também apresenta um dashboard com gráficos baseados nestes dados.
 
